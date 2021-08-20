@@ -1,0 +1,155 @@
+.bgimg{
+    background-image: url('footis.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+    
+}
+.headerset h2{
+    font-size: 42px;
+}
+.headerset h1{
+    font-size: 70px;
+    color: cyan;
+
+}
+.ourservices{
+    padding: 100px 0px 60px 0px;
+    height: 750px;
+}
+.ourservices h1{
+    font-size: 51px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin:80px 0px !important ;
+}
+.imgsetting {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+.fa-cart-arrow-down {
+    margin-top: 20px;
+}
+.fa-desktop{
+    margin-top: 25px;
+}
+.fa-cc-apple-pay{
+    margin-top: 20px;
+}
+/* .mine{ */
+    /* background: linear-gradient(#43cea2 , #185a9d); */
+/* } */
+.rowsetting p{
+    color: gray;
+    padding: 10px;
+}
+.rowsetting h2{
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* ///////////////////////portfolio */
+.portfolio{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px;
+}
+a:hover{
+    background-color: lightcoral;
+   
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+/* .......................OURTEAM */
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.teamsetting{
+    margin-top: 50px !important;
+}
+
+.footer{
+   height: 50px;
+}
+.footer h5{
+    line-height: 50px;
+}
+
+
+/* //////////////////////media query */
+
+
+@media (min-width:992px) {
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    
+}
+@media(min-width:575px) and ( max-width:767px){
+
+}
+@media(min-width:480px) and ( max-width:574px){
+
+    .headerset h2{
+        font-size: 22px;
+    }
+    .headerset h1{
+        font-size:42px;
+        color: cyan;
+    
+    }
+    .ourservices{
+       
+        height: 1500px;
+    }
+    .portfolio{
+        height: 2600px;
+    }
+    .ourteam{
+        height: 1400px;
+    }
+
+    
+}
+@media(max-width:469px){
+
+    .headerset h2{
+        font-size: 22px;
+    }
+    .headerset h1{
+        font-size:42px;
+        color: cyan;
+    
+    }
+    .ourservices{
+       
+        height: 1500px;
+    }
+    .portfolio{
+        height: 2600px;
+    }
+    .ourteam{
+        height: 1400px;
+    }
+
+}
